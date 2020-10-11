@@ -2,7 +2,7 @@
 
 web3-batch-request is a node package for batching requests on the eth blockchain with web3 1.x. It returns a promise that resolves when all requests are complete or rejects when one fails. If you are using infura or another node provider which limits your requests, your batched requests will count as a single request.
 
-For the package to work you will need to provide a web3 instance on creation.
+For the package to work you will need to provide a web3 instance when making a batch call.
 
 
 ### Usage:
