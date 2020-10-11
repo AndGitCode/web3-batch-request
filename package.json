@@ -1,0 +1,23 @@
+{
+  "name": "web3-batch-request",
+  "version": "1.0.0",
+  "description": "Web3 batch request allows you to create a batch request with web3 1.x and return a promise that resolves when it completes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web3",
+    "batch",
+    "promise",
+    "BatchRequest"
+  ],
+  "author": "conspyrosy",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
