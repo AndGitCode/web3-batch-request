@@ -1,6 +1,6 @@
 {
   "name": "web3-batch-request",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web3 batch request allows you to create a batch request with web3 1.x and return a promise that resolves when it completes",
   "main": "index.js",
   "scripts": {
