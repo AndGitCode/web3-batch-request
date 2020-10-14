@@ -29,6 +29,8 @@ Create some calls that you would like to batch. A call is an object with the fol
 }
 ```
 
+Both onSuccess and onError are optional. ethCall is mandatory.
+
 An example of the above would be:
 
 ```

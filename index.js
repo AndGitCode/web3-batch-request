@@ -17,14 +17,18 @@ module.exports = {
                         if(verbose) {
                             console.error("Error: " + JSON.stringify(err));
                         }
-                        call.onError(err);
+                        if(call.onError) {
+                            call.onError(err);
+                        }
                         reject(err);
                     }
                     else {
                         if(verbose) {
                             console.log("Success: " + JSON.stringify(data));
                         }
-                        call.onSuccess(data);
+                        if(call.onSuccess) {
+                            call.onSuccess(data);
+                        }
                         resolve(data)
                     }
                 });
